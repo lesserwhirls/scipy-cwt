@@ -13,6 +13,7 @@ from ltisys import *
 from windows import *
 from signaltools import *
 from wavelets import *
+from cwt import *
 
 __all__ = filter(lambda s:not s.startswith('_'),dir())
 from numpy.testing import Tester
